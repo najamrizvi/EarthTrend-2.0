@@ -4,6 +4,7 @@ from fastapi import FastAPI
 from app.api.health import router as health_router
 from app.api.gpm import router as gpm_router
 from app.api.historical import router as historical_router
+from fastapi.middleware.cors import CORSMiddleware
 
 
 app = FastAPI(
@@ -13,6 +14,14 @@ app = FastAPI(
         "trend investigation platform."
     ),
     version="2.0.0",
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["https://earthtrend-2-0.pages.dev"],
+    allow_credentials=False,
+    allow_methods=["GET"],
+    allow_headers=["*"],
 )
 
 app.include_router(health_router, prefix="/api")
