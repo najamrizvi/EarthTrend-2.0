@@ -21,8 +21,18 @@ htmlcov/
 .netrc
 
 # Scientific datasets and generated data
-data/
+data/*
+!data/processed/
+data/processed/*
+!data/processed/gpm_imerg/
+data/processed/gpm_imerg/*
+!data/processed/gpm_imerg/historical_20200101_20200130.zarr/
+
+# Allow only the verified historical Zarr dataset
+!data/processed/gpm_imerg/historical_20200101_20200130.zarr/**
 *.zarr/
+!data/processed/gpm_imerg/historical_20200101_20200130.zarr/
+!data/processed/gpm_imerg/historical_20200101_20200130.zarr/**
 *.nc
 *.h5
 *.hdf5

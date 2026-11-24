@@ -1,0 +1,10 @@
+{
+  "bounds": "time_bounds",
+  "standard_name": "time",
+  "time_standard": "UTC",
+  "units": "minutes since 2020-01-01 00:00:00",
+  "calendar": "proleptic_gregorian",
+  "_ARRAY_DIMENSIONS": [
+    "time"
+  ]
+}

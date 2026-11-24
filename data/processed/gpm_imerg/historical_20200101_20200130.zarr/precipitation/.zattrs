@@ -1,0 +1,11 @@
+{
+  "long_name": "GPM IMERG precipitation estimate",
+  "units": "mm/hr",
+  "source_variable": "Grid/precipitation",
+  "missing_value": "NaN; source fill value -9999.9",
+  "_ARRAY_DIMENSIONS": [
+    "time",
+    "latitude",
+    "longitude"
+  ]
+}

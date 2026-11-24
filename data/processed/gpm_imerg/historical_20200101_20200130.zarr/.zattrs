@@ -1,0 +1,18 @@
+{
+  "title": "EarthTrend 30-Day Historical GPM IMERG Dataset",
+  "source": "NASA GPM IMERG Final Half-Hourly V07B",
+  "source_collection": "GPM_3IMERGHH",
+  "source_version": "V07B",
+  "variable": "precipitation",
+  "spatial_resolution": "0.1 degree",
+  "time_interval": "30 minutes",
+  "time_standard": "UTC",
+  "period_start": "2020-01-01",
+  "period_end": "2020-01-30",
+  "region": "Latitude -0.06 to 0.06; longitude -0.06 to 0.06",
+  "source_observations": 1440,
+  "grid_cells_per_observation": 4,
+  "valid_grid_cell_observations": 5760,
+  "missing_grid_cell_observations": 0,
+  "scientific_note": "Thirty-day, four-cell regional dataset. Not a global dataset."
+}
