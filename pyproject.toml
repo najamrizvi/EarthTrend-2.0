@@ -1,2 +1,18 @@
+[project]
+name = "earthtrend-2-0"
+version = "2.0.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi==0.163.2",
+    "uvicorn[standard]==0.54.0",
+    "numpy==2.5.5",
+    "xarray==2026.9.0",
+    "zarr==3.4.2",
+    "h5py==3.16.0",
+]
+
+[tool.uv]
+package = false
+
 [tool.fastapi]
 entrypoint = "main:app"
