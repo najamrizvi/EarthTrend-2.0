@@ -18,7 +18,10 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://earthtrend-2-0.pages.dev"],
+    allow_origins=[
+        "https://earthtrend-2-0.pages.dev",
+        "https://311b80aa.earthtrend-2-0.pages.dev",
+    ],
     allow_credentials=False,
     allow_methods=["GET"],
     allow_headers=["*"],
