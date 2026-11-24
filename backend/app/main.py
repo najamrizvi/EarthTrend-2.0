@@ -39,3 +39,7 @@ async def root():
         "version": "2.0.0",
         "message": "Welcome to the EarthTrend API.",
     }
+
+@app.get("/api/cors-check")
+async def cors_check():
+    return {"cors_middleware": "active"}
