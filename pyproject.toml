@@ -16,3 +16,7 @@ package = false
 
 [tool.fastapi]
 entrypoint = "main:app"
+
+[tool.setuptools]
+packages = []
+py-modules = []
