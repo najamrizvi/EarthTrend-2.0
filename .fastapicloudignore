@@ -1,0 +1,19 @@
+# Allow the data directory for deployment
+!data/
+
+# Exclude everything by default
+data/*
+
+# Include only the required processed-data path
+!data/processed/
+data/processed/*
+
+!data/processed/gpm_imerg/
+data/processed/gpm_imerg/*
+
+# Include the two required Zarr datasets
+!data/processed/gpm_imerg/historical_20200101_20200130.zarr/
+!data/processed/gpm_imerg/gpm_imerg_sample_20200101_0000_0100_metadata_v4.zarr/
+
+!data/processed/gpm_imerg/historical_20200101_20200130.zarr/**
+!data/processed/gpm_imerg/gpm_imerg_sample_20200101_0000_0100_metadata_v4.zarr/**
