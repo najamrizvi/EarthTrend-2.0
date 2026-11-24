@@ -11,6 +11,10 @@ const API_REGION = {
   max_longitude: 0.06,
 }
 
+const API_BASE_URL = import.meta.env.PROD
+  ? 'https://earthtrend-20.fastapicloud.dev'
+  : ''
+
 function App() {
   const [view, setView] = useState('home')
 
@@ -47,9 +51,9 @@ function App() {
 
       try {
         const response = await fetch(
-          `/api/gpm/regional?${params}`,
-          { signal: controller.signal }
-        )
+           `${API_BASE_URL}/api/gpm/regional?${params}`,
+           { signal: controller.signal }
+         )
 
         const result = await response.json()
 
@@ -90,9 +94,9 @@ function App() {
 
       try {
         const response = await fetch(
-          '/api/gpm/historical-expanded',
-          { signal: controller.signal }
-        )
+           `${API_BASE_URL}/api/gpm/historical-expanded`,
+           { signal: controller.signal }
+         )
 
         const result = await response.json()
 
