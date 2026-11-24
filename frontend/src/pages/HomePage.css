@@ -1,0 +1,735 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+.home-page {
+  --space-bg: #050b16;
+  --space-panel: #0a1423;
+  --space-border: rgba(142, 177, 211, 0.15);
+  --space-text: #edf5ff;
+  --space-muted: #94a9c0;
+  --space-blue: #63b8ff;
+  --space-cyan: #74e0e2;
+
+  min-height: 100vh;
+  overflow: hidden;
+  background: var(--space-bg);
+  color: var(--space-text);
+  font-family: 'DM Sans', sans-serif;
+}
+
+.home-page * {
+  box-sizing: border-box;
+}
+
+.home-page button,
+.home-page a {
+  font: inherit;
+}
+
+.home-page button {
+  cursor: pointer;
+}
+
+.home-page a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.home-nav {
+  height: 84px;
+  padding: 0 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--space-border);
+  background: rgba(5, 11, 22, 0.94);
+  position: relative;
+  z-index: 10;
+}
+
+.home-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-symbol {
+  width: 39px;
+  height: 39px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(99, 184, 255, 0.65);
+  border-radius: 11px;
+  color: var(--space-cyan);
+  font: 700 23px 'Space Grotesk', sans-serif;
+  box-shadow: 0 0 20px rgba(66, 174, 255, 0.12);
+}
+
+.home-brand strong {
+  display: block;
+  font: 700 16px 'Space Grotesk', sans-serif;
+  letter-spacing: 1.4px;
+}
+
+.home-brand strong span {
+  color: var(--space-blue);
+}
+
+.home-brand small {
+  display: block;
+  margin-top: 3px;
+  color: var(--space-muted);
+  font-size: 8px;
+  letter-spacing: 1.5px;
+}
+
+.home-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  color: #b7c8da;
+  font-size: 12px;
+}
+
+.home-nav-links a,
+.home-footer a {
+  transition: color 0.2s ease;
+}
+
+.home-nav-links a:hover,
+.home-footer a:hover {
+  color: var(--space-cyan);
+}
+
+.nav-launch,
+.hero-primary {
+  border: 1px solid rgba(99, 184, 255, 0.5);
+  background: linear-gradient(135deg, #17649c, #153d6c);
+  color: white;
+  border-radius: 5px;
+  padding: 13px 19px;
+  font-size: 12px;
+  font-weight: 700;
+  transition: 0.25s ease;
+}
+
+.nav-launch:hover,
+.hero-primary:hover {
+  transform: translateY(-2px);
+  border-color: var(--space-cyan);
+  box-shadow: 0 8px 30px rgba(46, 151, 226, 0.25);
+}
+
+.nav-launch span,
+.hero-primary span {
+  margin-left: 13px;
+}
+
+.home-hero {
+  min-height: 690px;
+  padding: 100px 7% 70px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse at 76% 48%, rgba(19, 83, 134, 0.22), transparent 38%),
+    linear-gradient(110deg, #050b16 35%, #09172a 100%);
+}
+
+.hero-stars {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.4;
+  background-image:
+    radial-gradient(1px 1px at 12% 18%, white 50%, transparent),
+    radial-gradient(1px 1px at 39% 65%, white 50%, transparent),
+    radial-gradient(2px 2px at 72% 15%, #8ecaff 50%, transparent),
+    radial-gradient(1px 1px at 91% 73%, white 50%, transparent),
+    radial-gradient(1px 1px at 53% 34%, white 50%, transparent),
+    radial-gradient(1px 1px at 21% 82%, white 50%, transparent);
+  background-size: 240px 210px;
+}
+
+.hero-content {
+  width: 56%;
+  max-width: 680px;
+  position: relative;
+  z-index: 3;
+}
+
+.hero-kicker,
+.section-kicker,
+.hero-bottom-label,
+.earth-caption,
+.science-coordinate {
+  color: var(--space-cyan);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.hero-kicker {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-bottom: 28px;
+}
+
+.live-indicator {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #69e2c1;
+  box-shadow: 0 0 12px #69e2c1;
+}
+
+.hero-content h1,
+.mission-layout h2,
+.capabilities-section h2,
+.science-content h2,
+.launch-section h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  letter-spacing: -2.8px;
+}
+
+.hero-content h1 {
+  margin: 0;
+  font-size: clamp(52px, 6.2vw, 82px);
+  line-height: 1.05;
+}
+
+.hero-content h1 span,
+.mission-layout h2 span,
+.science-content h2 span,
+.launch-section h2 span {
+  color: var(--space-blue);
+}
+
+.hero-content > p {
+  max-width: 500px;
+  margin: 26px 0 29px;
+  color: #a9bbcf;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.hero-primary {
+  padding: 16px 23px;
+}
+
+.hero-secondary {
+  color: #c3d4e5;
+  font-size: 12px;
+}
+
+.hero-secondary span {
+  margin-left: 9px;
+  color: var(--space-cyan);
+}
+
+.hero-metrics {
+  display: flex;
+  gap: 43px;
+  margin-top: 67px;
+  padding-top: 23px;
+  border-top: 1px solid var(--space-border);
+}
+
+.hero-metrics div {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.hero-metrics strong {
+  font: 600 15px 'Space Grotesk', sans-serif;
+}
+
+.hero-metrics span {
+  color: #829bb5;
+  font-size: 8px;
+  letter-spacing: 1.2px;
+}
+
+.earth-visual {
+  width: 44%;
+  max-width: 520px;
+  aspect-ratio: 1;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: grid;
+  place-items: center;
+}
+
+.earth-globe {
+  width: 72%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 30% 29%, rgba(76, 175, 218, 0.85), transparent 13%),
+    radial-gradient(ellipse at 62% 44%, #236e91 0%, #164765 37%, #071c36 74%);
+  box-shadow:
+    inset -30px -15px 55px #020712,
+    inset 8px 5px 25px rgba(105, 201, 255, 0.4),
+    0 0 25px rgba(66, 174, 255, 0.2),
+    0 0 95px rgba(36, 134, 218, 0.3);
+}
+
+.earth-atmosphere {
+  position: absolute;
+  inset: -7px;
+  border-radius: 50%;
+  border: 8px solid rgba(91, 187, 255, 0.2);
+  box-shadow: 0 0 30px rgba(67, 172, 255, 0.45);
+}
+
+.earth-surface {
+  position: absolute;
+  inset: 0;
+  opacity: 0.8;
+  background:
+    radial-gradient(ellipse at 35% 25%, #a4c5a0 0 8%, transparent 9%),
+    radial-gradient(ellipse at 61% 35%, #83a98a 0 13%, transparent 14%),
+    radial-gradient(ellipse at 45% 60%, #8ebc98 0 12%, transparent 13%),
+    radial-gradient(ellipse at 73% 70%, #9cbda0 0 8%, transparent 9%);
+  filter: blur(5px);
+}
+
+.earth-clouds {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background:
+    repeating-linear-gradient(
+      155deg,
+      transparent 0 20px,
+      rgba(221, 243, 255, 0.08) 22px 28px,
+      transparent 33px 52px
+    );
+  filter: blur(4px);
+}
+
+.earth-orbit {
+  position: absolute;
+  width: 105%;
+  height: 37%;
+  border: 1px solid rgba(109, 190, 255, 0.32);
+  border-radius: 50%;
+  transform: rotate(-27deg);
+}
+
+.orbit-two {
+  width: 120%;
+  height: 53%;
+  transform: rotate(43deg);
+  border-color: rgba(99, 224, 226, 0.19);
+}
+
+.satellite-marker {
+  position: absolute;
+  top: 22%;
+  right: 17%;
+  width: 35px;
+  height: 35px;
+  display: grid;
+  place-items: center;
+  color: var(--space-cyan);
+  border: 1px solid rgba(116, 224, 226, 0.45);
+  border-radius: 50%;
+  background: #0a1b30;
+  box-shadow: 0 0 22px rgba(116, 224, 226, 0.35);
+}
+
+.earth-caption {
+  position: absolute;
+  bottom: 7%;
+  right: 1%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 8px;
+}
+
+.earth-caption strong {
+  color: white;
+  font: 600 14px 'Space Grotesk', sans-serif;
+  letter-spacing: 2px;
+}
+
+.hero-bottom-label {
+  position: absolute;
+  bottom: 20px;
+  left: 7%;
+  right: 7%;
+  display: flex;
+  justify-content: space-between;
+  color: #71869e;
+  font-size: 8px;
+}
+
+.mission-section,
+.capabilities-section,
+.science-section,
+.launch-section {
+  padding: 105px 9%;
+}
+
+.mission-section {
+  background: #081322;
+  border-top: 1px solid var(--space-border);
+}
+
+.mission-layout {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  align-items: center;
+  gap: 10%;
+}
+
+.mission-layout h2,
+.capabilities-section h2,
+.science-content h2,
+.launch-section h2 {
+  margin: 0;
+  font-size: clamp(38px, 4.5vw, 57px);
+  line-height: 1.14;
+}
+
+.mission-description {
+  color: #a6b9ce;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.mission-description p + p {
+  margin-top: 20px;
+}
+
+.capabilities-section {
+  background: #050b16;
+}
+
+.capabilities-section > h2 {
+  max-width: 650px;
+  margin-top: 25px;
+  font-size: 43px;
+}
+
+.capability-grid {
+  margin-top: 52px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.capability-card {
+  min-height: 265px;
+  padding: 24px;
+  position: relative;
+  border: 1px solid var(--space-border);
+  background: linear-gradient(145deg, #0c1b2d, #081321);
+  transition: 0.25s ease;
+}
+
+.capability-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(99, 184, 255, 0.5);
+  background: #10233a;
+}
+
+.capability-number {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  color: #607b96;
+  font-size: 10px;
+}
+
+.capability-icon {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 29px;
+  border: 1px solid rgba(99, 184, 255, 0.25);
+  border-radius: 8px;
+  color: var(--space-cyan);
+  font-size: 22px;
+}
+
+.capability-card h3 {
+  margin: 0 0 13px;
+  font: 600 16px 'Space Grotesk', sans-serif;
+}
+
+.capability-card p {
+  margin: 0;
+  color: #91a8bf;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.science-section {
+  display: grid;
+  grid-template-columns: 0.9fr 1fr;
+  align-items: center;
+  gap: 10%;
+  background: #091727;
+  border-top: 1px solid var(--space-border);
+  border-bottom: 1px solid var(--space-border);
+}
+
+.science-visual {
+  aspect-ratio: 1;
+  max-width: 380px;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  position: relative;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(25, 104, 154, 0.2), transparent 65%);
+}
+
+.science-ring {
+  position: absolute;
+  width: 85%;
+  height: 85%;
+  border: 1px solid rgba(99, 184, 255, 0.35);
+  border-radius: 50%;
+}
+
+.ring-two {
+  width: 65%;
+  height: 65%;
+  border-style: dashed;
+  border-color: rgba(116, 224, 226, 0.4);
+}
+
+.science-core {
+  width: 120px;
+  height: 120px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(116, 224, 226, 0.6);
+  border-radius: 50%;
+  color: white;
+  background: radial-gradient(circle, #175a7b, #091a31 75%);
+  box-shadow: 0 0 45px rgba(56, 168, 224, 0.25);
+  font: 600 27px 'Space Grotesk', sans-serif;
+}
+
+.science-coordinate {
+  position: absolute;
+  bottom: 5%;
+  font-size: 9px;
+}
+
+.science-content h2 {
+  margin-top: 25px;
+}
+
+.science-content > p {
+  margin: 22px 0 28px;
+  color: #a6b9ce;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.science-facts {
+  border-top: 1px solid var(--space-border);
+}
+
+.science-facts div {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid var(--space-border);
+}
+
+.science-facts span {
+  color: #8098b2;
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+
+.science-facts strong {
+  font-size: 12px;
+}
+
+.launch-section {
+  text-align: center;
+  background:
+    radial-gradient(ellipse at 50% 100%, rgba(23, 91, 151, 0.23), transparent 55%),
+    #050b16;
+}
+
+.launch-section h2 {
+  margin-top: 28px;
+}
+
+.launch-section > p {
+  max-width: 510px;
+  margin: 22px auto 28px;
+  color: #a6b9ce;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.home-footer {
+  min-height: 100px;
+  padding: 25px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-top: 1px solid var(--space-border);
+  background: #030812;
+}
+
+.home-footer > span,
+.home-footer > a {
+  color: #8198b1;
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1000px) {
+  .home-hero {
+    min-height: 630px;
+  }
+
+  .hero-content {
+    width: 62%;
+  }
+
+  .earth-visual {
+    right: -5%;
+    width: 43%;
+    opacity: 0.75;
+  }
+
+  .capability-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .home-nav {
+    height: 72px;
+    padding: 0 5%;
+  }
+
+  .home-nav-links {
+    display: none;
+  }
+
+  .nav-launch {
+    padding: 11px 12px;
+    font-size: 10px;
+  }
+
+  .home-hero {
+    min-height: auto;
+    padding: 75px 7% 90px;
+    display: block;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(48px, 12vw, 66px);
+  }
+
+  .hero-content > p {
+    font-size: 13px;
+  }
+
+  .earth-visual {
+    width: 75%;
+    position: relative;
+    top: auto;
+    right: auto;
+    margin: 45px auto 0;
+    transform: none;
+    opacity: 1;
+  }
+
+  .hero-metrics {
+    gap: 19px;
+    flex-wrap: wrap;
+  }
+
+  .hero-metrics span {
+    font-size: 7px;
+  }
+
+  .hero-bottom-label {
+    bottom: 17px;
+  }
+
+  .mission-section,
+  .capabilities-section,
+  .science-section,
+  .launch-section {
+    padding: 75px 7%;
+  }
+
+  .mission-layout,
+  .science-section {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .capabilities-section > h2 {
+    font-size: 34px;
+  }
+
+  .capability-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .capability-card {
+    min-height: 215px;
+  }
+
+  .science-visual {
+    width: 100%;
+  }
+
+  .home-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home-footer > span {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-page *,
+  .home-page *::before,
+  .home-page *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,6 @@
+﻿fastapi==0.163.2
+uvicorn[standard]==0.54.0
+numpy==2.5.5
+xarray==2026.9.0
+zarr==3.4.2
+h5py==3.16.0

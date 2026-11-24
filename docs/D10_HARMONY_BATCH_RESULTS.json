@@ -1,0 +1,2025 @@
+{
+  "experiment": "D10",
+  "started_utc": "2026-11-19T18:54:16.908819+00:00",
+  "manifest_request_count": 39,
+  "pilot_previously_validated": 1,
+  "batch_request_count": 38,
+  "completed": [
+    {
+      "request_number": 2,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "output": "D10_NONPOLAR_00201_000000_precipitationQualityIndex.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 43624,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": false,
+      "returned_units_present": false,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 3,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "output": "D10_NONPOLAR_00201_000000_randomError.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44264,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 4,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "output": "D10_NONPOLAR_00201_003000_precipitation.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44273,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 5,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "output": "D10_NONPOLAR_00201_003000_precipitationQualityIndex.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 43624,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": false,
+      "returned_units_present": false,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 6,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "output": "D10_NONPOLAR_00201_003000_randomError.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44264,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 7,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "output": "D10_NONPOLAR_00501_000000_precipitation.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44260,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 8,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "output": "D10_NONPOLAR_00501_000000_precipitationQualityIndex.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 43628,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": false,
+      "returned_units_present": false,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 9,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "output": "D10_NONPOLAR_00501_000000_randomError.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44257,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 10,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "output": "D10_NONPOLAR_00501_003000_precipitation.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44271,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 11,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "output": "D10_NONPOLAR_00501_003000_precipitationQualityIndex.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 43624,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": false,
+      "returned_units_present": false,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 12,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "output": "D10_NONPOLAR_00501_003000_randomError.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44261,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 13,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "output": "D10_NONPOLAR_00801_000000_precipitation.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44269,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 14,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "output": "D10_NONPOLAR_00801_000000_precipitationQualityIndex.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 43624,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": false,
+      "returned_units_present": false,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 15,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "output": "D10_NONPOLAR_00801_000000_randomError.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44265,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 16,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "output": "D10_NONPOLAR_00801_003000_precipitation.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44271,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 17,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "output": "D10_NONPOLAR_00801_003000_precipitationQualityIndex.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 43624,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": false,
+      "returned_units_present": false,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 18,
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "output": "D10_NONPOLAR_00801_003000_randomError.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44266,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        3
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 3,
+      "source_longitude_indices": [
+        3470,
+        3471,
+        3472,
+        3473,
+        3474
+      ],
+      "source_latitude_indices": [
+        393,
+        394,
+        395
+      ],
+      "valid_cells": 15,
+      "missing_cells": 0,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 19,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "output": "D10_SOUTH_POLAR_00201_000000_precipitation.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44264,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 15,
+      "missing_cells": 10,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 20,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "output": "D10_SOUTH_POLAR_00201_000000_precipitationQualityIndex.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 42529,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 15,
+      "missing_cells": 10,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": false,
+      "returned_units_present": false,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 21,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "output": "D10_SOUTH_POLAR_00201_000000_randomError.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44260,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 15,
+      "missing_cells": 10,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 22,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "output": "D10_SOUTH_POLAR_00201_003000_precipitation.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44264,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 15,
+      "missing_cells": 10,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 23,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "output": "D10_SOUTH_POLAR_00201_003000_precipitationQualityIndex.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 42529,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 15,
+      "missing_cells": 10,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": false,
+      "returned_units_present": false,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 24,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "output": "D10_SOUTH_POLAR_00201_003000_randomError.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44260,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 15,
+      "missing_cells": 10,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 25,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "output": "D10_SOUTH_POLAR_00501_000000_precipitation.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44264,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 15,
+      "missing_cells": 10,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 26,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "output": "D10_SOUTH_POLAR_00501_000000_precipitationQualityIndex.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 42529,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 15,
+      "missing_cells": 10,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": false,
+      "returned_units_present": false,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 27,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "output": "D10_SOUTH_POLAR_00501_000000_randomError.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44260,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 15,
+      "missing_cells": 10,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 28,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "output": "D10_SOUTH_POLAR_00501_003000_precipitation.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44264,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 10,
+      "missing_cells": 15,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 29,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "output": "D10_SOUTH_POLAR_00501_003000_precipitationQualityIndex.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 42526,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 10,
+      "missing_cells": 15,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": false,
+      "returned_units_present": false,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 30,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "output": "D10_SOUTH_POLAR_00501_003000_randomError.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44260,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 10,
+      "missing_cells": 15,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 31,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "output": "D10_SOUTH_POLAR_00801_000000_precipitation.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44264,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 10,
+      "missing_cells": 15,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 32,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "output": "D10_SOUTH_POLAR_00801_000000_precipitationQualityIndex.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 42523,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 10,
+      "missing_cells": 15,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": false,
+      "returned_units_present": false,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 33,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "output": "D10_SOUTH_POLAR_00801_000000_randomError.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44260,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 10,
+      "missing_cells": 15,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 34,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "output": "D10_SOUTH_POLAR_00801_003000_precipitation.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44264,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 15,
+      "missing_cells": 10,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 35,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "output": "D10_SOUTH_POLAR_00801_003000_precipitationQualityIndex.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 42523,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 15,
+      "missing_cells": 10,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": false,
+      "returned_units_present": false,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 36,
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "output": "D10_SOUTH_POLAR_00801_003000_randomError.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44260,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        5,
+        5
+      ],
+      "returned_longitude_count": 5,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
+      ],
+      "source_latitude_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "valid_cells": 15,
+      "missing_cells": 10,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 37,
+      "region": "NORTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "output": "D10_NORTH_POLAR_00801_000000_precipitation.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44249,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        3,
+        5
+      ],
+      "returned_longitude_count": 3,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        195,
+        196,
+        197
+      ],
+      "source_latitude_indices": [
+        1794,
+        1795,
+        1796,
+        1797,
+        1798
+      ],
+      "valid_cells": 9,
+      "missing_cells": 6,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 38,
+      "region": "NORTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "output": "D10_NORTH_POLAR_00801_000000_precipitationQualityIndex.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 43651,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        3,
+        5
+      ],
+      "returned_longitude_count": 3,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        195,
+        196,
+        197
+      ],
+      "source_latitude_indices": [
+        1794,
+        1795,
+        1796,
+        1797,
+        1798
+      ],
+      "valid_cells": 9,
+      "missing_cells": 6,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": false,
+      "returned_units_present": false,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    },
+    {
+      "request_number": 39,
+      "region": "NORTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "output": "D10_NORTH_POLAR_00801_000000_randomError.nc4",
+      "http_status": 200,
+      "content_type": "application/x-netcdf4",
+      "response_bytes": 44244,
+      "status": "PASS",
+      "source_shape": [
+        1,
+        3600,
+        1800
+      ],
+      "returned_shape": [
+        1,
+        3,
+        5
+      ],
+      "returned_longitude_count": 3,
+      "returned_latitude_count": 5,
+      "source_longitude_indices": [
+        195,
+        196,
+        197
+      ],
+      "source_latitude_indices": [
+        1794,
+        1795,
+        1796,
+        1797,
+        1798
+      ],
+      "valid_cells": 9,
+      "missing_cells": 6,
+      "maximum_absolute_difference": 0.0,
+      "source_units_present": true,
+      "returned_units_present": true,
+      "checks": {
+        "shape_and_dimensions": true,
+        "coordinates": true,
+        "timestamp": true,
+        "mapped_shape": true,
+        "fill_value": true,
+        "missing_mask": true,
+        "valid_values": true,
+        "units_presence": true,
+        "units": true,
+        "long_name": true
+      }
+    }
+  ],
+  "failed": [],
+  "status": "ALL_38_PASSED",
+  "updated_utc": "2026-11-19T19:00:16.684858+00:00",
+  "finished_utc": "2026-11-19T19:00:16.693116+00:00"
+}

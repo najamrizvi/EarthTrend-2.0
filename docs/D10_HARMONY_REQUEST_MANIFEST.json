@@ -1,0 +1,1022 @@
+{
+  "experiment": "D10",
+  "status": "PREPARED_NOT_EXECUTED",
+  "request_count": 39,
+  "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+  "requests": [
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/precipitation"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00201_000000_precipitation.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/precipitationQualityIndex"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00201_000000_precipitationQualityIndex.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/randomError"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00201_000000_randomError.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/precipitation"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00201_003000_precipitation.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/precipitationQualityIndex"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00201_003000_precipitationQualityIndex.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/randomError"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00201_003000_randomError.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/precipitation"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00501_000000_precipitation.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/precipitationQualityIndex"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00501_000000_precipitationQualityIndex.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/randomError"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00501_000000_randomError.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/precipitation"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00501_003000_precipitation.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/precipitationQualityIndex"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00501_003000_precipitationQualityIndex.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/randomError"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00501_003000_randomError.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/precipitation"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00801_000000_precipitation.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/precipitationQualityIndex"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00801_000000_precipitationQualityIndex.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/randomError"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00801_000000_randomError.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/precipitation"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00801_003000_precipitation.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/precipitationQualityIndex"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00801_003000_precipitationQualityIndex.nc4"
+    },
+    {
+      "region": "NONPOLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-50.699997:-50.4)"
+        ],
+        [
+          "subset",
+          "lon(167.09999:167.4)"
+        ],
+        [
+          "variable",
+          "Grid/randomError"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NONPOLAR_00801_003000_randomError.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/precipitation"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00201_000000_precipitation.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/precipitationQualityIndex"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00201_000000_precipitationQualityIndex.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200201-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/randomError"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00201_000000_randomError.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/precipitation"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00201_003000_precipitation.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/precipitationQualityIndex"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00201_003000_precipitationQualityIndex.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200201-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/randomError"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00201_003000_randomError.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/precipitation"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00501_000000_precipitation.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/precipitationQualityIndex"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00501_000000_precipitationQualityIndex.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200501-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/randomError"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00501_000000_randomError.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/precipitation"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00501_003000_precipitation.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/precipitationQualityIndex"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00501_003000_precipitationQualityIndex.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200501-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/randomError"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00501_003000_randomError.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/precipitation"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00801_000000_precipitation.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/precipitationQualityIndex"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00801_000000_precipitationQualityIndex.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/randomError"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00801_000000_randomError.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/precipitation"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00801_003000_precipitation.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/precipitationQualityIndex"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00801_003000_precipitationQualityIndex.nc4"
+    },
+    {
+      "region": "SOUTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200801-S003000-E005959.0030.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(-89.700005:-89.399994)"
+        ],
+        [
+          "subset",
+          "lon(-67.6:-67.299995)"
+        ],
+        [
+          "variable",
+          "Grid/randomError"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_SOUTH_POLAR_00801_003000_randomError.nc4"
+    },
+    {
+      "region": "NORTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitation",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(89.49999:89.8)"
+        ],
+        [
+          "subset",
+          "lon(-160.5:-160.2)"
+        ],
+        [
+          "variable",
+          "Grid/precipitation"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NORTH_POLAR_00801_000000_precipitation.nc4"
+    },
+    {
+      "region": "NORTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/precipitationQualityIndex",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(89.49999:89.8)"
+        ],
+        [
+          "subset",
+          "lon(-160.5:-160.2)"
+        ],
+        [
+          "variable",
+          "Grid/precipitationQualityIndex"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NORTH_POLAR_00801_000000_precipitationQualityIndex.nc4"
+    },
+    {
+      "region": "NORTH_POLAR",
+      "granule": "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5",
+      "variable": "Grid/randomError",
+      "endpoint": "https://harmony.earthdata.nasa.gov/GPM_3IMERGHH/ogc-api-coverages/1.0.0/collections/parameter_vars/coverage/rangeset",
+      "query_parameters": [
+        [
+          "granuleName",
+          "3B-HHR.MS.MRG.3IMERG.20200801-S000000-E002959.0000.V07B.HDF5"
+        ],
+        [
+          "subset",
+          "lat(89.49999:89.8)"
+        ],
+        [
+          "subset",
+          "lon(-160.5:-160.2)"
+        ],
+        [
+          "variable",
+          "Grid/randomError"
+        ]
+      ],
+      "expected_content_type": "application/x-netcdf4",
+      "output_filename": "D10_NORTH_POLAR_00801_000000_randomError.nc4"
+    }
+  ]
+}
