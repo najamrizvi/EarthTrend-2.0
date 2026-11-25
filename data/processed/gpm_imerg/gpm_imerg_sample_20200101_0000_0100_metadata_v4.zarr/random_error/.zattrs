@@ -1,0 +1,12 @@
+{
+  "original_fill_value": -9999.900390625,
+  "units": "mm/hr",
+  "long_name": "Root-mean-square error estimate for \n                        complete merged microwave-infrared (gauge-adjusted)\n                        precipitation",
+  "grid_mapping": "latitude_longitude",
+  "coordinates": "source_granule_index",
+  "_ARRAY_DIMENSIONS": [
+    "time",
+    "latitude",
+    "longitude"
+  ]
+}

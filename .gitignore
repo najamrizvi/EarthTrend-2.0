@@ -1,4 +1,5 @@
-﻿# Python environments
+﻿
+# Python environments
 .venv/
 venv/
 env/
@@ -26,13 +27,17 @@ data/*
 data/processed/*
 !data/processed/gpm_imerg/
 data/processed/gpm_imerg/*
-!data/processed/gpm_imerg/historical_20200101_20200130.zarr/
 
-# Allow only the verified historical Zarr dataset
+# Allow only the two verified GPM Zarr datasets
+!data/processed/gpm_imerg/historical_20200101_20200130.zarr/
 !data/processed/gpm_imerg/historical_20200101_20200130.zarr/**
+!data/processed/gpm_imerg/gpm_imerg_sample_20200101_0000_0100_metadata_v4.zarr/
+!data/processed/gpm_imerg/gpm_imerg_sample_20200101_0000_0100_metadata_v4.zarr/**
 *.zarr/
 !data/processed/gpm_imerg/historical_20200101_20200130.zarr/
 !data/processed/gpm_imerg/historical_20200101_20200130.zarr/**
+!data/processed/gpm_imerg/gpm_imerg_sample_20200101_0000_0100_metadata_v4.zarr/
+!data/processed/gpm_imerg/gpm_imerg_sample_20200101_0000_0100_metadata_v4.zarr/**
 *.nc
 *.h5
 *.hdf5

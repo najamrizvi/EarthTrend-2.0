@@ -1,0 +1,14 @@
+{
+  "title": "EarthTrend 2.0 - GPM IMERG sample dataset",
+  "source": "NASA GPM IMERG Final Half-Hourly V07",
+  "collection_short_name": "GPM_3IMERGHH",
+  "collection_version": "07",
+  "granule_product_version": "V07B",
+  "source_files": "3B-HHR.MS.MRG.3IMERG.20200101-S000000-E002959.0000.V07B.HDF5; 3B-HHR.MS.MRG.3IMERG.20200101-S003000-E005959.0030.V07B.HDF5",
+  "spatial_resolution": "0.1 degree",
+  "time_interval": "30 minutes",
+  "time_standard": "UTC",
+  "spatial_dimension_order": "latitude, longitude",
+  "processing_note": "Original precipitation rate retained in its source units. Source fill values converted to NaN. Source HDF5 files remain unchanged.",
+  "created_utc": "2026-11-17T20:25:16.132378+00:00"
+}

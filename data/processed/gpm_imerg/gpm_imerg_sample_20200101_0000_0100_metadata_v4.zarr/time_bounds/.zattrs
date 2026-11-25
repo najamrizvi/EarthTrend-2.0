@@ -1,0 +1,10 @@
+{
+  "description": "Start and end of each half-hourly observation interval",
+  "coordinates": "source_granule_index",
+  "units": "minutes since 2020-01-01 00:00:00",
+  "calendar": "proleptic_gregorian",
+  "_ARRAY_DIMENSIONS": [
+    "time",
+    "bounds"
+  ]
+}

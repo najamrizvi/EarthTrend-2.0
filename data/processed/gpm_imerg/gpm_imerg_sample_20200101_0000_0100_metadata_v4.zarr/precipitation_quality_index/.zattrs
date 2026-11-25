@@ -1,0 +1,11 @@
+{
+  "original_fill_value": -9999.900390625,
+  "long_name": "Precipitation quality index; qualitative indicator\n                        of skill based on the microwave-infrared merging process",
+  "grid_mapping": "latitude_longitude",
+  "coordinates": "source_granule_index",
+  "_ARRAY_DIMENSIONS": [
+    "time",
+    "latitude",
+    "longitude"
+  ]
+}

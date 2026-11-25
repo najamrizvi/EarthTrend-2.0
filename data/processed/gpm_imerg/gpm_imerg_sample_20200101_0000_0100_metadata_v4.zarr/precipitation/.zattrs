@@ -1,0 +1,13 @@
+{
+  "original_fill_value": -9999.900390625,
+  "units": "mm/hr",
+  "long_name": "Complete merged microwave-infrared (gauge-adjusted)\n                        precipitation estimate;  formerly precipitationCal",
+  "grid_mapping": "latitude_longitude",
+  "ancillary_variables": "precipitation_quality_index random_error",
+  "coordinates": "source_granule_index",
+  "_ARRAY_DIMENSIONS": [
+    "time",
+    "latitude",
+    "longitude"
+  ]
+}
