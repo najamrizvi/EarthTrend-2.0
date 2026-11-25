@@ -2,7 +2,9 @@
 import { useEffect, useMemo, useState } from 'react'
 import './Forecasting.css'
 
-const API_BASE_URL = '/api'
+const API_BASE_URL = import.meta.env.PROD
+  ? 'https://earthtrend-20.fastapicloud.dev/api'
+  : '/api'
 
 function formatTimestamp(timestamp) {
   if (!timestamp) return '—'
